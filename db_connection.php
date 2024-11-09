@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$host = 'localhost';           // Database host (usually 'localhost')
-$db_name = 'compliance_system'; // Name of the database
-$username = 'root'; // Database username
-$password = ''; // Database password
+$host = 'AZURE_MYSQL_HOST';           // Database host (usually 'localhost')
+$db_name = 'AZURE_MYSQL_DBNAME'; // Name of the database
+$username = 'AZURE_MYSQL_USERNAME'; // Database username
+$password = 'AZURE_MYSQL_PASSWORD'; // Database password
 
 // Create a new MySQLi connection
 $conn = new mysqli($host, $username, $password, $db_name);
